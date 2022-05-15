@@ -1,0 +1,37 @@
+<Html>     
+    <Head>      
+    <Title>     
+    extra markup practical  
+    </Title>  
+    </Head>  
+    <Body>
+        <marquee>this is basic example of marquee</marquee>   
+        <fieldset> 
+                  <legend >somnath information</legend>
+      <marquee><h1>somnath temple mahadev</h1></marquee>
+       <span><p>The Somnath temple, also called Somanātha temple or Deo Patan, is a Hindu temple located in Prabhas Patan,
+            Veraval in Gujarat, India. It is one of the most sacred pilgrimage sites for Hindus and is believed to be 
+            first among the twelve Jyotirlinga shrines of Shiva.[1] The temple was reconstructed several times in the 
+            past after repeated destruction by multiple Muslim invaders and rulers.[2][3][4][5] It is unclear when the 
+            first version of the Somnath temple was built with estimates varying between the early centuries of the 
+            1st-millennium to about the 9th-century CE.[6][7] The temple's history is a subject of unresolved disputes 
+            among historians.[8][9]</p></span>
+            <img src="https://images.news18.com/ibnlive/uploads/2021/08/somnath-temple-16293749303x2.jpg?impolicy=website&width=510&height=356"/>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WvDsyOiOm6E?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>s
+       </fieldset>
+       <footer>
+        <fieldset>
+            <legend>notice</legend>
+            <div style="border:1px solid color blue;">
+       <header>somanath seva samiti</header>
+       email:somanath14@gmail.com
+       contact :9788754345<br>
+       Shree Somnath Trust welcomes you to the holy place of the Aadi Jyotirling Shree Somnath Mahadev and the sacred soil from where Bhagvan Shri Krishna took his last journey to his neejdham.<br>
+    
+
+       Note: Mobile, Camera & electronics equipments are not allowed in temple premises
+       </div>
+        </fieldset>
+    </footer>
+    </Body>  
+    </Html>  
