@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Extra Mark Up Example</title>
+	</head>
+	<body>
+		
+		<h2>Images In HTML</h2>
+			<img src="Image/Virtualization-diagram.png" alt="Demo Image 1" style="height:250px;width:500px;" /><hr/>
+		
+		<hr/>
+		
+		<h2>Images In YouTube</h2>
+			<img src="http://www.theengineroom.co.uk/wp-content/uploads/2013/07/Cloud-Computing.jpg" alt="Demo Image 1" style="height:250px;width:450px;" /><hr/>
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/M988_fsOSWo" title="YouTube video player"width="600" height="450" style="border:0;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<hr/>
+		
+		<hr/>
+		
+	</body>
+</html>
