@@ -1,0 +1,139 @@
+<html>
+<head> <title>menubar</title>
+ 
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css" />
+	 <style>
+
+	 	 #HeaderDiv a.navbar-brand
+	            {
+	                font-family:monotype corsiva;
+	                font-size:25px;    
+	                color: #FFFFFF;
+	            }
+	            #navbarCollapse li b
+	            {
+	                color:#3474eb;
+	            }
+	 .fullscreen_bg{
+	                top:0;
+					right:0;
+					bottom:0;
+					left:0;
+					background:rgba(001,110f,fff00);
+					z-index:-1;
+					}
+	.fullscreen_bg_video{
+	                    position:absolute;
+						width:auto;
+						height:auto;
+						min-width:100%;
+						min-height:100%;
+						}			
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form
+	 {
+					
+        background-color:#4D0900!important;
+					
+	 }
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form 
+	{
+	border-color:#003333!important;
+	}
+	 #Home
+	            {
+	                height:auto;
+	                padding-bottom:40px;
+	                color:#fff;
+	                font-weight:bold
+	            }
+	            
+	            #HomeRow
+	            {
+	                padding-top:7%;
+	            }
+				#HomeRow div.col-lg-offset-3{background:rgba(0,0,0,0.2);
+				border-radius:5px;
+	            box-shadow:0px 0px 10px #003333!important;;
+				}
+	            #HomeRow a i.fa
+	            {
+	                color:#ffffff;
+	            }
+	             #HomeRow div.col-lg-offset-3
+	            {
+	                background:rgba(0,0,0,0.7); 
+	                padding-top:20px;
+	                padding-bottom:20px;
+	                border-radius:5px;
+	                box-shadow:0px 0px 10px #000099;   
+	            }
+	            .h2, h2 {
+					
+					color: #000099;
+					}
+	 	 
+	 </style>
+</head>
+<body>
+<div>
+
+            <nav role="navigation"  class="navbar navbar-inverse navbar-fixed-top" style="z-index: 2500;">
+				 
+				 <div class="navbar-header" id="HeaderDiv">
+					 <button type="button" data-target="#navbarcollapse" data-toggle="collapse" class="navbar-toggle">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">sahil gajera</a>
+				</div>
+				<div id="navbarollapse" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right" style="font-size:13px padding-right:15px;">
+					    <li><a href="#home"><b>introduction</b></a></li>
+						<li><a href="#technicalsummary">technicalsummary</a></li>
+						<li><a href="#qulifications">qulifications</a></li>
+						<li><a href="#skills">skills</a></li>
+						<li><a href="noncollegiat">oncollegia</a></li>
+						<li><a href="#expereince">expereince</a></li>
+						<li><a href="#eventphotos">eventphotos</a></li>
+						<li><a href="#services">services</a></li>
+					</ul>
+                </div>
+			</nav>
+					
+</div>
+<!--home menu-->
+
+<div id="home" class="fullscreen_bg">
+	<video src="video/keyb.mp4" autoplay loop muted  class="fullscreen_bg_video"></video>
+	<!--<div class="container">-->
+		<div class="row" id="HomeRow">
+                   <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-lg-6 col-md-6 col-sm-10 col-xs-12 wow slideInLeft" data-wow-duration="4s">
+                        <center><img src="Images/Admin-icon1.png" width="50%"  style="border:10px solid #E0FFFF;border-radius:30%;margin-top:10px;" alt="sahil gajera" /></center>
+                        <center><h2>i'm sahil gajera</h2></center>
+                        <center><h5>web devloper</h5><hr /></center>
+                        <div class="row">
+                            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-5 col-md-5 col-sm-5">
+                                 <center><i class="fa fa-2x fa-phone"></i> +91- 9724360621</center>
+                            </div>
+                            <div class="col-lg-5 col-md-6 col-sm-6">
+                                 <center><i class="fa fa-2x fa-envelope"></i> <a href="mailto:hiralsuthar@gmail.com" style="color:#ffffff;">gajerasahil69@gmail.com</a></center>
+                            </div>
+                        </div><hr/>	
+                        <div class="row">
+                            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10">
+                                 <center><i class="fa fa-2x fa-map-marker"></i>silver oak university.</center>
+                            </div>
+                        </div><hr />
+                        <center><a href="#"><i class="fa fa-2x fa-facebook-square" style=""></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-twitter-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-instagram"></i></a></center>
+                   </div>
+            <!--</div>-->
+						
+		</div>
+	</div>
+	
+
+
+</body>
+</html>
